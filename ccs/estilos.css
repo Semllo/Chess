@@ -1,0 +1,33 @@
+body{
+  background: #AAAAAA;
+  color: #000;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#tablero{
+  background-image: url("../images/madera.jpg");
+  border-collapse: collapse;
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  border: 5px solid black;
+}
+
+#tablero td{
+  width: 100px;
+  height: 100px;
+}
+
+#tablero tr:nth-child(odd) td:nth-child(even),
+#tablero tr:nth-child(even) td:nth-child(odd){
+  background: rgba(0, 0, 0, 0.5);
+  
+  
+}
+
+img {
+    width: 95%;
+    height: 95%;
+	
+}
